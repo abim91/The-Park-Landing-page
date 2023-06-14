@@ -118,3 +118,25 @@ img{
     color: #1f2937;
     text-align: center;
 }
+
+.quote{
+    background-color: #E5E7EB;
+    height: 300px;
+    
+   
+}
+.quote .container{
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.quote .container h1{
+    
+    font-size: 32px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
