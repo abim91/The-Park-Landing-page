@@ -15,21 +15,36 @@ body{
     line-height: 1.5;/* gives more space between texts vertically*/
 }
 ul{
-    list-style: none;
+    list-style-type: none;
 }
-
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:visited{
+    color: inherit;
+}
 img{
     max-width: 100%;
 }
-
 .header{
+    background-color: #1f2937;
+
+}
+.container{
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
-    font-size: 18px;
-    color: #E5E7Eb;
+}
 
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    size: 18px;
+    color: #F9FAF8;
+}
+.nav li{
+    margin: 10px; 
 }
 .logo{
     font-size: 24px;
