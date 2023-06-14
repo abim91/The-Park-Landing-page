@@ -58,6 +58,7 @@ img{
     justify-content: center;
     align-items: center;
     height: 400px;
+    line-height: 3;
 }
 .hero .container h2{
     font-size: 48px;
@@ -139,4 +140,39 @@ img{
     color: #1f2937;
 }
 
+.cta{
+    height: 230px;
+    display: flex;
+    align-items: center;
 
+}
+
+.cta .container{
+    height: 95px;
+    width: 590px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta .container button{
+    background-color: #3882F6;
+    text-decoration: none;
+    border-color: #F9FAF8;
+    width: 85px;
+    height: 27px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#F9FAF8;
+    height: 80px;
+    background-color: #1f2937;
+}
